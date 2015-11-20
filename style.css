@@ -17,6 +17,11 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
     border-left-color: #3E84C2;
 }
 
+.container button{
+    font-family: "Dosis", cursiva;
+    color: white;
+}
+
 .btn-link {
     color: #3E84C2;
 }
