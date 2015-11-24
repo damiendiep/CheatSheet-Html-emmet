@@ -7,13 +7,11 @@
     letter-spacing: 0.4px;
 }
 
-  h1 {
-    font-family: "Lobster", cursiva;
-}
-
-li a, p, h1, h2, code{
-    font-family: "Lobster", cursiva;
-}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
+      font-family: 'Arvo',serif;
+      font-weight: 400;
+  }
 
 
 /*Name to describe*/
@@ -30,14 +28,45 @@ code {
     text-align:left;
 }
 
-
+section i:hover {
+    color: white;
+}
 
 .container button {
     color: white;
     font-family: "Roboto", cursiva;
 }
 
+#copyright {
+    margin-top: 1%;
+    text-align: center;
+}
 
+h1 {
+    font-family: "Lobster", cursiva;
+}
+
+li a, p, h1, h2, code{
+    font-family: "Lobster", cursiva;
+}
+
+#copyright h1 {
+    margin: 0;
+    margin-bottom: 1%;
+    font-family: "Roboto", cursiva;
+    margin-top: 10%;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+#copyright h2 {
+    font-family: "Roboto", cursiva;
+    opacity: 0.5;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 1;
+}
 
 
 
@@ -132,10 +161,6 @@ footer {
     position: relative;
 }
 
-
-/* --------------------------------------- HEADER  --------------------------------------*/
-
-
 img{
     max-width: 100%;
 }
@@ -202,10 +227,10 @@ footer *{
     outline: none !important;
 }
 
-/* -------------------------------------------  HEADER  ---------------------------------------- */
 
 
-/*--------------------------------------------------------Mini image-------------------------------*/
+
+/*Mini image*/
 .hexicon {
     background: url("images/hex.png");
     width: 132px;
@@ -245,33 +270,12 @@ footer *{
     background-size: 80px auto;
 }
 
-/*--------------------------------------------------------Mini image-------------------------------*/
 
-/*-----------------------footer-----------------------------*/
 
-#copyright h1 {
-    margin: 0;
-    margin-bottom: 1%;
-    font-family: "Roboto", cursiva;
-    margin-top: 10%;
-    font-size: 1.2em;
-    color: white;
-    text-align: center;
+
+p.lead{
+    font-family: 'Arvo' !important;
 }
-
-#copyright h2 {
-    font-family: "Roboto", cursiva;
-    opacity: 0.5;
-    font-size: 1.2em;
-    color: white;
-    margin-top: 1;
-}
-
-#copyright {
-    margin-top: 1%;
-    text-align: center;
-}
-/*--------------------------------------------footer-----------------------------------------*/
 
 .up-triangle,.down-triangle{
     float: left;
@@ -280,11 +284,6 @@ footer *{
 
 .up-triangle:first-child{
     margin-left: 20px;
-}
-
-/* ------------------- Icon -------------------------- */ 
-section i:hover {
-    color: white;
 }
 
 @media (max-width: 1000px) {
